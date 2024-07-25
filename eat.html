@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2em 0;
+        }
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 1em;
+            width: 300px;
+            transition: transform 0.2s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item h3 {
+            margin: 0;
+            padding: 0.5em;
+            background-color: #f4f4f4;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+        .menu-item p {
+            padding: 1em;
+            text-align: justify;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            text-align: right;
+            padding: 0 1em 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Delicious Menu</h1>
+    </header>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1565895405130-3fa47c5c9f97?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="Grilled Chicken">
+            <h3>Grilled Chicken</h3>
+            <p>Succulent grilled chicken served with a side of fresh vegetables and a tangy dipping sauce.</p>
+            <div class="price">$12.99</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1625821422484-9c7b5eae4d35?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="Spaghetti Carbonara">
+            <h3>Spaghetti Carbonara</h3>
+            <p>Creamy spaghetti carbonara with crispy bacon and a sprinkle of parmesan cheese.</p>
+            <div class="price">$14.99</div>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="Caesar Salad">
+            <h3>Caesar Salad</h3>
+            <p>Fresh romaine lettuce, croutons, and parmesan cheese tossed in our homemade Caesar dressing.</p>
+            <div class="price">$9.99</div>
+        </div>
+    </div>
+    <script>
+        // JavaScript to add any interactive features if needed in the future
+    </script>
+</body>
+</html>
